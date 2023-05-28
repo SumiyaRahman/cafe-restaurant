@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500;700;900&display=swap');
+
+/* font-family: 'Heebo', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+.navbar{
+    background: #F7E5D2;
+}
+.number{
+    color: gray;
+    font-family: 'Playfair Display', serif;
+}
+.cafe{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.nav-item{
+    padding: 0 1.2em;
+}
+.nav-link{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: gray;
+}
+.fa-user{
+    margin: 0 0.6em;
+}
+
+/* navbar end */
+
+/* hero section */
+.hero-section{
+    background-image: url("./Image/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.overlay{
+    background-color: #1a1a1a;
+    height: 100vh;
+    opacity: 0.6;
+}
+.hero-text{
+    position: absolute;
+    top: 0;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.hero-smalldes-text p{
+    color: #f5f5f5;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.hero-long-text{
+    margin-bottom: 4em;
+}
+.hero-long-text h1{
+    color: #f5f5f5;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 600;
+}
+.hero-buttons{
+    display: flex;
+}
+.order-now{
+    margin-right: 3em;
+}
+.order-now a,.our-menu a{
+    text-decoration: none;
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 1px;
+    padding: 10px 25px;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.order-now a:hover,.our-menu a:hover{
+    background-color: rgba(220, 220, 220, 0.253);
+}
+.carousel-item{
+    background-color: #A2754B;
+    padding: 5px 0;
+}
+.carousel-item pre{
+    text-align: center;
+    margin-top: 15px;
+    color: #ffff;
+    font-size: 0.9em;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* eat */
+.eat{
+    /* margin-top: 100px; */
+}
+.eat-text{
+    justify-content: center;
+    align-items: center;
+}
+.eat-des-sec{
+    width: 400px;
+}
+.eat-text h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #000000;
+}
+.eat-short-para{
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 14px;
+    letter-spacing: 1px;
+}
+.eat-long-para{
+    margin-top: 35px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin-bottom: 3.2em;
+}
+.eat-image img{
+    width: 100%;
+}
+.see-more{
+    text-decoration: none;
+    border: 1px solid #1a1a1a;
+    border-radius: 1px;
+    color: #1a1a1a;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+}
+.see-more:hover{
+    background-color: #4e4e4e;
+    border: none;
+    color: #f5f5f5;
+}
+
+/* information start */
+.addresss{
+    background-color: #FBF2E8;
+}
+.add h1{
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1.5em;
+}
+.informaton-sec{
+    margin-top: 4em;
+    padding-bottom: 5em;
+}
+.address-part{
+    text-align: center;
+    margin: 0 100px;
+}
+.title-of-info{
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 1.3em;
+}
+.main-address,.mon{
+    font-size: 12px;
+    font-weight: 300;
+}
+.main-address{
+    line-height: 1.7em;
+}
+.mon{
+    margin: 0;
+    line-height: 1.7em;
+}
+.vertical{
+    width: 1%;
+    height: 18vh;
+    border: none;
+    border-right: 1px solid #1a1a1a;
+}
